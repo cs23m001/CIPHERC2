@@ -1,0 +1,65 @@
+package generate
+
+import (
+	"context"
+	"fmt"
+
+	"github.com/cs23m001/CIPHERC2/client/command/settings"
+	"github.com/cs23m001/CIPHERC2/client/console"
+	"github.com/cs23m001/CIPHERC2/protobuf/clientpb"
+	"github.com/cs23m001/CIPHERC2/protobuf/commonpb"
+	"github.com/jedib0t/go-pretty/v6/table"
+	"github.com/spf13/cobra"
+)
+
+// CanariesCmd - Display canaries from the database and their status.
+func CanariesCmd(cmd *cobra.Command, con *console.CIPHERC2Client, args []string) {
+	canaries, err := con.Rpc.Canaries(context.Background(), &commonpb.Empty{})
+	if err != nil {
+		con.PrintErrorf("Failed to list canaries %s", err)
+		return
+	}
+	if 0 < len(canaries.Canaries) {
+		burnedOnly, _ := cmd.Flags().GetBool("burned")
+		PrintCanaries(con, canaries.Canaries, burnedOnly)
+	} else {
+		con.PrintInfof("No canaries in database\n")
+	}
+}
+
+// PrintCanaries - Print the canaries tracked by the server.
+func PrintCanaries(con *console.CIPHERC2Client, canaries []*clientpb.DNSCanary, burnedOnly bool) {
+	tw := table.NewWriter()
+	tw.SetStyle(settings.GetTableStyle(con))
+	tw.AppendHeader(table.Row{
+		"CIPHERC2 Name",
+		"Domain",
+		"Triggered",
+		"First Trigger",
+		"Latest Trigger",
+	})
+	for _, canary := range canaries {
+		if burnedOnly && !canary.Triggered {
+			continue
+		}
+		lineColor := console.Normal
+		if canary.Triggered {
+			lineColor = console.Bold + console.Red
+		}
+		firstTrigger := "Never"
+		latestTrigger := "Never"
+		if canary.Triggered {
+			firstTrigger = fmt.Sprintf(lineColor+"%s"+console.Normal, canary.FirstTriggered)
+			latestTrigger = fmt.Sprintf(lineColor+"%s"+console.Normal, canary.LatestTrigger)
+		}
+		row := table.Row{
+			fmt.Sprintf(lineColor+"%s"+console.Normal, canary.ImplantName),
+			fmt.Sprintf(lineColor+"%s"+console.Normal, canary.Domain),
+			fmt.Sprintf(lineColor+"%v"+console.Normal, canary.Triggered),
+			firstTrigger,
+			latestTrigger,
+		}
+		tw.AppendRow(row)
+	}
+	con.Printf("%s\n", tw.Render())
+}

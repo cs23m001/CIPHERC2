@@ -1,0 +1,50 @@
+/.vscode/*
+/.devcontainer
+/.idea
+
+/Dockerfile.*
+/*.sdk.tar.xz
+
+/release-*
+
+# Diffs
+*.orig
+
+# Binaries
+/CIPHERC2-server
+/CIPHERC2-server_arm64
+/CIPHERC2.exe
+/CIPHERC2-server_*
+
+/CIPHERC2-client
+/CIPHERC2-client_arm64
+/CIPHERC2-client.exe
+/CIPHERC2-client_*
+
+CIPHERC2-server-linux.zip
+CIPHERC2-server-macos.zip
+CIPHERC2-server-windows.zip
+
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+/*.test
+/test.py
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+/*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+.DS_Store
+
+dist/
+
+# Flag to show that go-assets.sh has been run
+.downloaded_assets
