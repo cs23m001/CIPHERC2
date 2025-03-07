@@ -25,11 +25,11 @@ import (
 	"encoding/json"
 	"sync"
 
-	"ggithub.com/cs23m001/CIPHERC2/server/db/models"
 	"github.com/cs23m001/CIPHERC2/protobuf/clientpb"
 	"github.com/cs23m001/CIPHERC2/server/configs"
 	"github.com/cs23m001/CIPHERC2/server/core"
 	"github.com/cs23m001/CIPHERC2/server/db"
+	"github.com/cs23m001/CIPHERC2/server/db/models"
 	"github.com/cs23m001/CIPHERC2/server/log"
 	grpc_auth "github.com/grpc-ecosystem/go-grpc-middleware/auth"
 	grpc_logrus "github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"

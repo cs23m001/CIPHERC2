@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	ver "github.com/bishopfox/CIPHERC2/client/version"
+	ver "github.com/cs23m001/CIPHERC2/client/version"
 )
 
 const (

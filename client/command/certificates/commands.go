@@ -19,9 +19,9 @@ package certificates
 */
 
 import (
-	"ggithub.com/cs23m001/CIPHERC2/client/console"
 	"github.com/cs23m001/CIPHERC2/client/command/flags"
 	"github.com/cs23m001/CIPHERC2/client/command/help"
+	"github.com/cs23m001/CIPHERC2/client/console"
 	consts "github.com/cs23m001/CIPHERC2/client/constants"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

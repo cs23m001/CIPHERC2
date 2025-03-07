@@ -5,14 +5,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/bishopfox/sliver/client/command/flags"
-	"github.com/bishopfox/sliver/client/command/help"
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
+	"github.com/cs23m001/CIPHERC2/client/command/flags"
+	"github.com/cs23m001/CIPHERC2/client/command/help"
+	"github.com/cs23m001/CIPHERC2/client/console"
+	consts "github.com/cs23m001/CIPHERC2/client/constants"
 )
 
 // Commands returns the “ command and its subcommands.
-func Commands(con *console.SliverClient) []*cobra.Command {
+func Commands(con *console.CIPHERC2Client) []*cobra.Command {
 	envCmd := &cobra.Command{
 		Use:   consts.EnvStr,
 		Short: "List environment variables",
