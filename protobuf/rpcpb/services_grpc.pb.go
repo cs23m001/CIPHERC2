@@ -10,7 +10,7 @@ import (
 	context "context"
 	clientpb "github.com/cs23m001/cipherc2/protobuf/clientpb"
 	commonpb "github.com/cs23m001/cipherc2/protobuf/commonpb"
-	sliverpb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	sliverpb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

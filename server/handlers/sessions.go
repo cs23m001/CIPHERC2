@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/server/core"
 	"github.com/cs23m001/cipherc2/server/core/rtunnels"
 	"github.com/cs23m001/cipherc2/server/log"

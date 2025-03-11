@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	implantEncoders "github.com/cs23m001/cipherc2/implant/sliver/encoders/traffic"
+	implantEncoders "github.com/cs23m001/cipherc2/implant/cipherc2/encoders/traffic"
 	serverEncoders "github.com/cs23m001/cipherc2/util/encoders/traffic"
 )
 

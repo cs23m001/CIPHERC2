@@ -30,8 +30,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/things-go/go-socks5"
 	"google.golang.org/protobuf/proto"
 )

@@ -25,7 +25,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/netstack"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/netstack"
 	"github.com/things-go/go-socks5"
 )
 

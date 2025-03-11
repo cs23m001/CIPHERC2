@@ -18,7 +18,7 @@ var srcDirs = []string{
 	"../sliver",
 	"../../protobuf/commonpb",
 	"../../protobuf/dnspb",
-	"../../protobuf/sliverpb",
+	"../../protobuf/cipherc2pb",
 }
 
 func fatalf(format string, a ...interface{}) {

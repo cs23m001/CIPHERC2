@@ -33,19 +33,19 @@ import (
 	// {{if .Config.IncludeMTLS}}
 	"crypto/tls"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/mtls"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/mtls"
 
 	// {{end}}
 
 	// {{if .Config.IncludeHTTP}}
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/httpclient"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/httpclient"
 	// {{end}}
 
 	// {{if .Config.IncludeWG}}
 	"errors"
 	"net"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/wireguard"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/wireguard"
 	"golang.zx2c4.com/wireguard/device"
 
 	// {{end}}
@@ -56,10 +56,10 @@ import (
 
 	// {{if .Config.IncludeDNS}}
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/dnsclient"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/dnsclient"
 	// {{end}}
 
-	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	pb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 var (

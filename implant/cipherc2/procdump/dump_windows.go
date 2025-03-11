@@ -29,7 +29,7 @@ import (
 
 	// {{if .Config.Evasion}}
 	// {{if eq .Config.GOARCH "amd64"}}
-	"github.com/cs23m001/cipherc2/implant/sliver/evasion"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/evasion"
 	// {{end}}
 	// {{end}}
 
@@ -37,8 +37,8 @@ import (
 	"encoding/binary"
 	"unsafe"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/priv"
-	"github.com/cs23m001/cipherc2/implant/sliver/syscalls"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/priv"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/syscalls"
 	"golang.org/x/sys/windows"
 )
 

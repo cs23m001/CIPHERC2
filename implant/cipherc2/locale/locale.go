@@ -22,7 +22,7 @@ package locale
 
 
 import (
-	"github.com/cs23m001/cipherc2/implant/sliver/locale/jibberjabber"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/locale/jibberjabber"
 )
 
 // GetLocale returns the default language set

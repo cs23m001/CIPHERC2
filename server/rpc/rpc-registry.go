@@ -22,7 +22,7 @@ import (
 	"context"
 
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 // RegistryRead - gRPC interface to read a registry key from a session

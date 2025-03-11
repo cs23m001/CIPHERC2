@@ -29,7 +29,7 @@ import (
 	"log"
 	// {{end}}
 
-	"github.com/cs23m001/cipherc2/implant/sliver/encoders"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/encoders"
 	"github.com/miekg/dns"
 )
 

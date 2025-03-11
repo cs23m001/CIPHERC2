@@ -19,7 +19,7 @@ package pivots
 */
 
 import (
-	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	pb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 var SupportedPivotListeners = map[pb.PivotType]CreateListener{

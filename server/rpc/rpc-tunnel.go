@@ -25,7 +25,7 @@ import (
 
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
 	"github.com/cs23m001/cipherc2/protobuf/rpcpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/server/core"
 	"github.com/cs23m001/cipherc2/server/log"
 	"google.golang.org/protobuf/proto"

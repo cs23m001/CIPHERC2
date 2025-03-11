@@ -31,7 +31,7 @@ import (
 	"github.com/cs23m001/cipherc2/client/console"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/util/encoders"
 	"github.com/spf13/cobra"
 )

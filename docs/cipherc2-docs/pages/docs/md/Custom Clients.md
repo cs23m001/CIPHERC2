@@ -34,7 +34,7 @@ import (
 	"github.com/cs23m001/cipherc2/client/transport"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 func makeRequest(session *clientpb.Session) *commonpb.Request {

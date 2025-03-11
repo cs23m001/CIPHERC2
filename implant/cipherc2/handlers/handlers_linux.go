@@ -31,11 +31,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/mount"
-	"github.com/cs23m001/cipherc2/implant/sliver/procdump"
-	"github.com/cs23m001/cipherc2/implant/sliver/taskrunner"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/mount"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/procdump"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/taskrunner"
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"google.golang.org/protobuf/proto"
 
 	// {{if .Config.Debug}}

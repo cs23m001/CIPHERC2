@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	implantCrypto "github.com/cs23m001/cipherc2/implant/sliver/cryptography"
+	implantCrypto "github.com/cs23m001/cipherc2/implant/cipherc2/cryptography"
 	"github.com/cs23m001/cipherc2/util/minisign"
 )
 

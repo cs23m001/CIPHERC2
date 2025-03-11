@@ -31,9 +31,9 @@ import (
 
 	// {{end}}
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports"
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -27,7 +27,7 @@ import (
 
 	"github.com/cs23m001/cipherc2/client/console"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 // RunAsCmd - Run a command as another user on the remote system

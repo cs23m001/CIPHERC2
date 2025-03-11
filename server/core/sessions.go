@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/mtls"
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/wireguard"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/mtls"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/wireguard"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/server/log"
 	"github.com/gofrs/uuid"
 

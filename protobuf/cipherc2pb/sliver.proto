@@ -1,6 +1,6 @@
 syntax = "proto3";
 package sliverpb;
-option go_package = "github.com/cs23m001/cipherc2/protobuf/sliverpb";
+option go_package = "github.com/cs23m001/cipherc2/protobuf/cipherc2pb";
 
 import "commonpb/common.proto";
 

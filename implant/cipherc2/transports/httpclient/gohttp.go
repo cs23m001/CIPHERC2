@@ -28,10 +28,10 @@ import (
 
 	// {{if .Config.Debug}}
 	"log"
-	"github.com/cs23m001/cipherc2/implant/sliver/cryptography"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/cryptography"
 	// {{end}}
 
-	"github.com/cs23m001/cipherc2/implant/sliver/proxy"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/proxy"
 )
 
 // GoHTTPDriver - Pure Go HTTP driver

@@ -29,7 +29,7 @@ import (
 
 	consts "github.com/cs23m001/cipherc2/client/constants"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
-	sliverpb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	sliverpb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/server/core"
 	"github.com/cs23m001/cipherc2/server/db"
 	"github.com/cs23m001/cipherc2/server/db/models"

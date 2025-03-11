@@ -37,9 +37,9 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/ps"
-	"github.com/cs23m001/cipherc2/implant/sliver/syscalls"
-	"github.com/cs23m001/cipherc2/implant/sliver/taskrunner"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/ps"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/syscalls"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/taskrunner"
 )
 
 const (
@@ -505,7 +505,7 @@ func lookupPrivilegeNameByLUID(luid uint64) (string, string, error) {
 	   https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-lookupprivilegenamew
 	   https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-lookupprivilegedisplaynamew
 
-	   Defined these syscalls in implant/sliver/syscalls/syscalls_windows.go and generated them with
+	   Defined these syscalls in implant/cipherc2/syscalls/syscalls_windows.go and generated them with
 	   mkwinsyscall, so we are good to go.
 
 	   mkwinsyscall -output zsyscalls_windows.go syscalls_windows.go

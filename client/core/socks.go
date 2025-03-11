@@ -29,7 +29,7 @@ import (
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
 	"github.com/cs23m001/cipherc2/protobuf/rpcpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/cs23m001/cipherc2/util/leaky"
 )
 

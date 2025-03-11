@@ -27,7 +27,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/priv"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/priv"
 	"golang.org/x/sys/windows"
 )
 

@@ -24,7 +24,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cs23m001/cipherc2/client/console"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 // StopPivotListenerCmd - Start a TCP pivot listener on the remote system

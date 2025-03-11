@@ -36,7 +36,7 @@ import (
 	// {{end}}
 
 	// {{if .Config.TrafficEncodersEnabled}}
-	"github.com/cs23m001/cipherc2/implant/sliver/encoders/traffic"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/encoders/traffic"
 	// {{end}}
 )
 

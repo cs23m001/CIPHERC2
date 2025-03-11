@@ -24,7 +24,7 @@ import (
 	"strconv"
 
 	"github.com/cs23m001/cipherc2/client/console"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/rsteube/carapace"
 	"github.com/spf13/cobra"
 )

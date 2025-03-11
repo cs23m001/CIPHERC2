@@ -31,7 +31,7 @@ import (
 
 	"github.com/cs23m001/cipherc2/client/console"
 	"github.com/cs23m001/cipherc2/protobuf/clientpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 // RegWriteCmd - Write to a Windows registry key: registry write --hive HKCU --type dword "software\google\chrome\blbeacon\hello" 32

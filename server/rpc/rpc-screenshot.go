@@ -22,7 +22,7 @@ import (
 	"context"
 
 	"github.com/cs23m001/cipherc2/protobuf/commonpb"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 // Screenshot - Take a screenshot of the remote system

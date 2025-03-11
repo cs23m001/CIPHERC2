@@ -32,9 +32,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/tcpproxy"
-	"github.com/cs23m001/cipherc2/implant/sliver/transports"
-	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/tcpproxy"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports"
+	"github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 )
 
 var (

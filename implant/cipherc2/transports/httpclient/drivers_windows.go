@@ -24,7 +24,7 @@ import (
 	"log"
 	// {{end}}
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/httpclient/drivers/win/wininet"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/httpclient/drivers/win/wininet"
 )
 
 var (

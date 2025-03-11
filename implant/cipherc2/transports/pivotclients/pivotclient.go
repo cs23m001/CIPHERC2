@@ -31,10 +31,10 @@ import (
 	"log"
 	// {{end}}
 
-	consts "github.com/cs23m001/cipherc2/implant/sliver/constants"
-	"github.com/cs23m001/cipherc2/implant/sliver/cryptography"
-	"github.com/cs23m001/cipherc2/implant/sliver/pivots"
-	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	consts "github.com/cs23m001/cipherc2/implant/cipherc2/constants"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/cryptography"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/pivots"
+	pb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	"github.com/gofrs/uuid"
 	"google.golang.org/protobuf/proto"
 )

@@ -35,28 +35,28 @@ import (
 	// {{if .Config.IncludeMTLS}}
 	"crypto/tls"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/mtls"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/mtls"
 
 	// {{end}}
 
 	// {{if .Config.IncludeWG}}
 	"errors"
 
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/wireguard"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/wireguard"
 	"golang.zx2c4.com/wireguard/device"
 
 	// {{end}}
 
 	// {{if .Config.IncludeHTTP}}
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/httpclient"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/httpclient"
 	// {{end}}
 
 	// {{if .Config.IncludeDNS}}
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/dnsclient"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/dnsclient"
 	// {{end}}
 
 	// {{if .Config.IncludeTCP}}
-	"github.com/cs23m001/cipherc2/implant/sliver/transports/pivotclients"
+	"github.com/cs23m001/cipherc2/implant/cipherc2/transports/pivotclients"
 	"google.golang.org/protobuf/proto"
 
 	// {{end}}
@@ -66,7 +66,7 @@ import (
 	"net/url"
 	"sync"
 
-	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	pb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	// {{end}}
 
 	"time"

@@ -9,7 +9,7 @@ package rpcpb
 import (
 	clientpb "github.com/cs23m001/cipherc2/protobuf/clientpb"
 	commonpb "github.com/cs23m001/cipherc2/protobuf/commonpb"
-	sliverpb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	sliverpb "github.com/cs23m001/cipherc2/protobuf/cipherc2pb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
