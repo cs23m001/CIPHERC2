@@ -22,7 +22,7 @@ import "embed"
 
 var (
 	// FS - Embedded FS access to sliver implant code
-	//go:embed sliver/**
+	//go:embed cipherc2/**
 	FS embed.FS
 
 	// GoMod - Templated go.mod module file for implant builds
