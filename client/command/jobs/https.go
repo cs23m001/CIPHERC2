@@ -25,8 +25,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 	"github.com/spf13/cobra"
 )
 

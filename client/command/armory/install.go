@@ -30,13 +30,13 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/assets"
-	"github.com/bishopfox/sliver/client/command/alias"
-	"github.com/bishopfox/sliver/client/command/extensions"
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/util"
-	"github.com/bishopfox/sliver/util/minisign"
+	"github.com/cs23m001/cipherc2/client/assets"
+	"github.com/cs23m001/cipherc2/client/command/alias"
+	"github.com/cs23m001/cipherc2/client/command/extensions"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/util"
+	"github.com/cs23m001/cipherc2/util/minisign"
 )
 
 // ErrPackageNotFound - The package was not found

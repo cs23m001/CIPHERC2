@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/console"
+	"github.com/cs23m001/cipherc2/client/console"
 )
 
 func LootRmCmd(cmd *cobra.Command, con *console.SliverClient, args []string) {

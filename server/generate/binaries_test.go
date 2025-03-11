@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/server/certs"
-	"github.com/bishopfox/sliver/server/configs"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/server/certs"
+	"github.com/cs23m001/cipherc2/server/configs"
 )
 
 var (

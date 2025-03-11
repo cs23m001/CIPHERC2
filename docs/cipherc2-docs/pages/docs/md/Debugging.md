@@ -14,12 +14,12 @@ Debugging the Sliver needs to be done via delve [remote debugging](https://githu
 
 ```
 dlv debug \
---build-flags="-tags osusergo,netgo,go_sqlite,server -ldflags='-X github.com/bishopfox/sliver/client/version.Version=1.1.2 -X github.com/bishopfox/sliver/client/version.CompiledAt=Never -X github.com/bishopfox/sliver/client/version.GithubReleasesURL=github.com -X github.com/bishopfox/sliver/client/version.GitCommit=aabbcc -X github.com/bishopfox/sliver/client/version.GitDirty=Dirty'" \
+--build-flags="-tags osusergo,netgo,go_sqlite,server -ldflags='-X github.com/cs23m001/cipherc2/client/version.Version=1.1.2 -X github.com/cs23m001/cipherc2/client/version.CompiledAt=Never -X github.com/cs23m001/cipherc2/client/version.GithubReleasesURL=github.com -X github.com/cs23m001/cipherc2/client/version.GitCommit=aabbcc -X github.com/cs23m001/cipherc2/client/version.GitDirty=Dirty'" \
 --headless \
 --listen=:2345 \
 --api-version=2 \
 --log \
-github.com/bishopfox/sliver/server
+github.com/cs23m001/cipherc2/server
 ```
 
 To simplify things, you can add this command as a VSCode task, by adding the following to your [`.vscode/tasks.json` file](https://code.visualstudio.com/docs/editor/tasks):
@@ -31,12 +31,12 @@ To simplify things, you can add this command as a VSCode task, by adding the fol
   "command": "dlv",
   "args": [
     "debug",
-    "--build-flags=\"-tags osusergo,netgo,go_sqlite,server -ldflags='-X github.com/bishopfox/sliver/client/version.Version=0.0.0 -X github.com/bishopfox/sliver/client/version.CompiledAt=Never -X github.com/bishopfox/sliver/client/version.GithubReleasesURL=https://api.github.com/repos/BishopFox/sliver/releases -X github.com/bishopfox/sliver/client/version.GitCommit=debug -X github.com/bishopfox/sliver/client/version.GitDirty=Dirty -X github.com/bishopfox/sliver/client/assets.DefaultArmoryPublicKey=RWSBpxpRWDrD7Fe+VvRE3c2VEDC2NK80rlNCj+BX0gz44Xw07r6KQD9L -X github.com/bishopfox/sliver/client/assets.DefaultArmoryRepoURL=https://api.github.com/repos/sliverarmory/armory/releases'\"",
+    "--build-flags=\"-tags osusergo,netgo,go_sqlite,server -ldflags='-X github.com/cs23m001/cipherc2/client/version.Version=0.0.0 -X github.com/cs23m001/cipherc2/client/version.CompiledAt=Never -X github.com/cs23m001/cipherc2/client/version.GithubReleasesURL=https://api.github.com/repos/BishopFox/sliver/releases -X github.com/cs23m001/cipherc2/client/version.GitCommit=debug -X github.com/cs23m001/cipherc2/client/version.GitDirty=Dirty -X github.com/cs23m001/cipherc2/client/assets.DefaultArmoryPublicKey=RWSBpxpRWDrD7Fe+VvRE3c2VEDC2NK80rlNCj+BX0gz44Xw07r6KQD9L -X github.com/cs23m001/cipherc2/client/assets.DefaultArmoryRepoURL=https://api.github.com/repos/sliverarmory/armory/releases'\"",
     "--headless",
     "--listen=:8844",
     "--api-version=2",
     "--log",
-    "github.com/bishopfox/sliver/server"
+    "github.com/cs23m001/cipherc2/server"
   ],
   "presentation": {
     "echo": true,

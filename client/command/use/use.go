@@ -31,10 +31,10 @@ import (
 	"github.com/rsteube/carapace"
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/command/beacons"
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/client/command/beacons"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
 )
 
 var ErrNoSelection = errors.New("no selection")

@@ -7,7 +7,7 @@
 package sliverpb
 
 import (
-	commonpb "github.com/bishopfox/sliver/protobuf/commonpb"
+	commonpb "github.com/cs23m001/cipherc2/protobuf/commonpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

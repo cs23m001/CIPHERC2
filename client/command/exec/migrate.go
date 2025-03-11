@@ -25,9 +25,9 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/client/console"
+	consts "github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 )
 
 // MigrateCmd - Windows only, inject an implant into another process

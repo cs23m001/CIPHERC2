@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/server/watchtower"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/server/watchtower"
 )
 
 func (rpc *Server) MonitorStart(ctx context.Context, _ *commonpb.Empty) (*commonpb.Response, error) {

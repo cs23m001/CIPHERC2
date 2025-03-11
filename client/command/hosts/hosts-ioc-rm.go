@@ -21,7 +21,7 @@ package hosts
 import (
 	"context"
 
-	"github.com/bishopfox/sliver/client/console"
+	"github.com/cs23m001/cipherc2/client/console"
 	"github.com/spf13/cobra"
 )
 

@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/command/alias"
-	"github.com/bishopfox/sliver/client/command/extensions"
-	"github.com/bishopfox/sliver/client/console"
+	"github.com/cs23m001/cipherc2/client/command/alias"
+	"github.com/cs23m001/cipherc2/client/command/extensions"
+	"github.com/cs23m001/cipherc2/client/console"
 )
 
 // ArmorySearchCmd - Search for packages by name

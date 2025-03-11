@@ -45,7 +45,7 @@ import (
 	// {{else}}{{end}}
 
 	// {{if .Config.LimitLocale}}
-	"github.com/bishopfox/sliver/implant/sliver/locale"
+	"github.com/cs23m001/cipherc2/implant/sliver/locale"
 	// {{end}}
 )
 

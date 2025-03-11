@@ -131,7 +131,7 @@ export default function TopNavbar(props: TopNavbarProps) {
         <Button
           variant="ghost"
           onPress={() => {
-            window.open("https://github.com/BishopFox/sliver", "_blank");
+            window.open("https://github.com/cs23m001/cipherc2", "_blank");
           }}
         >
           <FontAwesomeIcon icon={faGithub} />

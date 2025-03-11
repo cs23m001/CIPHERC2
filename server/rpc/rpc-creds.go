@@ -21,12 +21,12 @@ package rpc
 import (
 	"context"
 
-	"github.com/bishopfox/sliver/client/credentials"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/cs23m001/cipherc2/client/credentials"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/server/db"
+	"github.com/cs23m001/cipherc2/server/db/models"
+	"github.com/cs23m001/cipherc2/server/log"
 	"github.com/gofrs/uuid"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -33,12 +33,12 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/client/spin"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/util"
+	"github.com/cs23m001/cipherc2/client/console"
+	consts "github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/client/spin"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/util"
 	"github.com/spf13/cobra"
 )
 
@@ -69,7 +69,7 @@ const (
 )
 
 const (
-	crossCompilerInfoURL = "https://github.com/BishopFox/sliver/wiki/Cross-Compiling-Implants"
+	crossCompilerInfoURL = "https://github.com/cs23m001/cipherc2/wiki/Cross-Compiling-Implants"
 )
 
 var (

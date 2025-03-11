@@ -22,9 +22,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/server/configs"
-	"github.com/bishopfox/sliver/server/db"
+	"github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/server/configs"
+	"github.com/cs23m001/cipherc2/server/db"
 )
 
 func SetupDefaultC2Profiles() {

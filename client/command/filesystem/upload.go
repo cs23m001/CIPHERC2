@@ -30,11 +30,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/implant/sliver/handlers/matcher"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/util/encoders"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/implant/sliver/handlers/matcher"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/util/encoders"
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/proto"
 )

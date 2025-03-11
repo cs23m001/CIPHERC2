@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/server/log"
 	"github.com/gofrs/uuid"
 	"gorm.io/gorm"
 )

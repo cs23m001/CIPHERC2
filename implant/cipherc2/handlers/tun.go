@@ -24,8 +24,8 @@ import (
 	"log"
 	// {{end}}
 
-	"github.com/bishopfox/sliver/implant/sliver/handlers/tunnel_handlers"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/implant/sliver/handlers/tunnel_handlers"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 )
 
 var (

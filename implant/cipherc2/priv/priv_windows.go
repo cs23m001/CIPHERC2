@@ -37,9 +37,9 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/bishopfox/sliver/implant/sliver/ps"
-	"github.com/bishopfox/sliver/implant/sliver/syscalls"
-	"github.com/bishopfox/sliver/implant/sliver/taskrunner"
+	"github.com/cs23m001/cipherc2/implant/sliver/ps"
+	"github.com/cs23m001/cipherc2/implant/sliver/syscalls"
+	"github.com/cs23m001/cipherc2/implant/sliver/taskrunner"
 )
 
 const (

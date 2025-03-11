@@ -27,12 +27,12 @@ package c2
 // 	"net/url"
 // 	"testing"
 
-// 	implantCrypto "github.com/bishopfox/sliver/implant/sliver/cryptography"
-// 	implantEncoders "github.com/bishopfox/sliver/implant/sliver/encoders"
-// 	implantTransports "github.com/bishopfox/sliver/implant/sliver/transports/httpclient"
-// 	"github.com/bishopfox/sliver/protobuf/sliverpb"
-// 	"github.com/bishopfox/sliver/server/configs"
-// 	"github.com/bishopfox/sliver/server/cryptography"
+// 	implantCrypto "github.com/cs23m001/cipherc2/implant/sliver/cryptography"
+// 	implantEncoders "github.com/cs23m001/cipherc2/implant/sliver/encoders"
+// 	implantTransports "github.com/cs23m001/cipherc2/implant/sliver/transports/httpclient"
+// 	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+// 	"github.com/cs23m001/cipherc2/server/configs"
+// 	"github.com/cs23m001/cipherc2/server/cryptography"
 // 	"google.golang.org/protobuf/proto"
 // )
 

@@ -29,7 +29,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 
 	"golang.org/x/sys/windows"
 )

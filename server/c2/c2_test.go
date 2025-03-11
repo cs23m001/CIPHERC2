@@ -24,11 +24,11 @@ import (
 	"os"
 	"testing"
 
-	implantCrypto "github.com/bishopfox/sliver/implant/sliver/cryptography"
-	"github.com/bishopfox/sliver/server/certs"
-	"github.com/bishopfox/sliver/server/cryptography"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
+	implantCrypto "github.com/cs23m001/cipherc2/implant/sliver/cryptography"
+	"github.com/cs23m001/cipherc2/server/certs"
+	"github.com/cs23m001/cipherc2/server/cryptography"
+	"github.com/cs23m001/cipherc2/server/db"
+	"github.com/cs23m001/cipherc2/server/db/models"
 )
 
 var (

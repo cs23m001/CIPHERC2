@@ -23,11 +23,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/server/core"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/server/core"
+	"github.com/cs23m001/cipherc2/server/db"
+	"github.com/cs23m001/cipherc2/server/db/models"
 	"google.golang.org/protobuf/proto"
 )
 

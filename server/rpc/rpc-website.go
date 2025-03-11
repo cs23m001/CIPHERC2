@@ -23,14 +23,14 @@ import (
 	"mime"
 	"path/filepath"
 
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
+	consts "github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
 
-	"github.com/bishopfox/sliver/server/core"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/log"
-	"github.com/bishopfox/sliver/server/website"
+	"github.com/cs23m001/cipherc2/server/core"
+	"github.com/cs23m001/cipherc2/server/db"
+	"github.com/cs23m001/cipherc2/server/log"
+	"github.com/cs23m001/cipherc2/server/website"
 )
 
 var (

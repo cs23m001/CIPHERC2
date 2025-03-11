@@ -23,8 +23,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/bishopfox/sliver/protobuf/rpcpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/rpcpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 )
 
 var (

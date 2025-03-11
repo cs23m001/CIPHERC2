@@ -9,11 +9,11 @@ import (
 	"log"
 	// {{end}}
 
-	"github.com/bishopfox/sliver/implant/sliver/encoders"
-	"github.com/bishopfox/sliver/implant/sliver/extension"
-	"github.com/bishopfox/sliver/implant/sliver/transports"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/implant/sliver/encoders"
+	"github.com/cs23m001/cipherc2/implant/sliver/extension"
+	"github.com/cs23m001/cipherc2/implant/sliver/transports"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
 	"google.golang.org/protobuf/proto"
 )
 

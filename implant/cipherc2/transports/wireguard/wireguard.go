@@ -39,9 +39,9 @@ import (
 	"log"
 	// {{end}}
 
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	pb "github.com/cs23m001/cipherc2/protobuf/sliverpb"
 
-	"github.com/bishopfox/sliver/implant/sliver/netstack"
+	"github.com/cs23m001/cipherc2/implant/sliver/netstack"
 	"golang.zx2c4.com/wireguard/conn"
 	"golang.zx2c4.com/wireguard/device"
 	"golang.zx2c4.com/wireguard/tun"

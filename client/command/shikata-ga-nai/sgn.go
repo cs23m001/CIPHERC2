@@ -26,8 +26,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
 )
 
 // ShikataGaNaiCmd - Command wrapper for the Shikata Ga Nai shellcode encoder

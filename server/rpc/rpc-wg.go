@@ -3,11 +3,11 @@ package rpc
 import (
 	"context"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/server/certs"
-	"github.com/bishopfox/sliver/server/generate"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/server/certs"
+	"github.com/cs23m001/cipherc2/server/generate"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -25,9 +25,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/bishopfox/sliver/server/configs"
-	"github.com/bishopfox/sliver/server/log"
-	"github.com/bishopfox/sliver/server/transport"
+	"github.com/cs23m001/cipherc2/server/configs"
+	"github.com/cs23m001/cipherc2/server/log"
+	"github.com/cs23m001/cipherc2/server/transport"
 )
 
 var (

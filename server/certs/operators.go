@@ -23,8 +23,8 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
+	"github.com/cs23m001/cipherc2/server/db"
+	"github.com/cs23m001/cipherc2/server/db/models"
 )
 
 const (

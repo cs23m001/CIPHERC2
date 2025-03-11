@@ -23,10 +23,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bishopfox/sliver/client/command/generate"
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/client/command/generate"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 	"github.com/spf13/cobra"
 )
 

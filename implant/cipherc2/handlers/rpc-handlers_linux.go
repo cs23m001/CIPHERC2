@@ -32,9 +32,9 @@ import (
        "strconv"
 	"syscall"
 
-	"github.com/bishopfox/sliver/implant/sliver/ps"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/implant/sliver/ps"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 	"google.golang.org/protobuf/proto"
 
 	"golang.org/x/sys/unix"

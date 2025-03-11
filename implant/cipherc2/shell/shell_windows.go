@@ -24,10 +24,11 @@ import (
 	// {{end}}
 
 	"context"
-	"github.com/bishopfox/sliver/implant/sliver/priv"
-	"golang.org/x/sys/windows"
 	"os/exec"
 	"syscall"
+
+	"github.com/cs23m001/cipherc2/implant/sliver/priv"
+	"golang.org/x/sys/windows"
 )
 
 var (

@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bishopfox/sliver/client/constants"
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/server/certs"
-	"github.com/bishopfox/sliver/server/core"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/cs23m001/cipherc2/client/constants"
+	consts "github.com/cs23m001/cipherc2/client/constants"
+	"github.com/cs23m001/cipherc2/protobuf/clientpb"
+	"github.com/cs23m001/cipherc2/server/certs"
+	"github.com/cs23m001/cipherc2/server/core"
+	"github.com/cs23m001/cipherc2/server/log"
 	"golang.zx2c4.com/wireguard/device"
 )
 

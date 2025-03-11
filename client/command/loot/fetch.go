@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/console"
+	"github.com/cs23m001/cipherc2/client/console"
 )
 
 // LootFetchCmd - Display the contents of or download a piece of loot

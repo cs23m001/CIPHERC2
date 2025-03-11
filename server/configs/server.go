@@ -23,8 +23,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bishopfox/sliver/server/assets"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/cs23m001/cipherc2/server/assets"
+	"github.com/cs23m001/cipherc2/server/log"
 	"github.com/sirupsen/logrus"
 )
 

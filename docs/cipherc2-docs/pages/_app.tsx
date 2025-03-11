@@ -75,7 +75,7 @@ export default function App({ Component, pageProps }: AppProps) {
                   </a>
                   {" - "}
                   <a
-                    href="https://github.com/BishopFox/sliver/pulls"
+                    href="https://github.com/cs23m001/cipherc2/pulls"
                     rel="noreferrer"
                     className="hover:underline"
                     target="_blank"
@@ -87,7 +87,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                   <li>
                     <a
-                      href="https://github.com/BishopFox/sliver/blob/master/LICENSE"
+                      href="https://github.com/cs23m001/cipherc2/blob/master/LICENSE"
                       target="_blank"
                       rel="noreferrer"
                       className="hover:underline me-4 md:me-6"

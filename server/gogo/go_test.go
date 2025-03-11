@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bishopfox/sliver/server/assets"
+	"github.com/cs23m001/cipherc2/server/assets"
 )
 
 func TestGoGoVersion(t *testing.T) {

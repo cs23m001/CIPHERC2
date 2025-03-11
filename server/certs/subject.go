@@ -24,7 +24,7 @@ import (
 	insecureRand "math/rand"
 	"strings"
 
-	"github.com/bishopfox/sliver/server/codenames"
+	"github.com/cs23m001/cipherc2/server/codenames"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

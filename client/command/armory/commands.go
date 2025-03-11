@@ -5,11 +5,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/bishopfox/sliver/client/command/completers"
-	"github.com/bishopfox/sliver/client/command/flags"
-	"github.com/bishopfox/sliver/client/command/help"
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
+	"github.com/cs23m001/cipherc2/client/command/completers"
+	"github.com/cs23m001/cipherc2/client/command/flags"
+	"github.com/cs23m001/cipherc2/client/command/help"
+	"github.com/cs23m001/cipherc2/client/console"
+	consts "github.com/cs23m001/cipherc2/client/constants"
 )
 
 // Commands returns the `armory` command and its subcommands.

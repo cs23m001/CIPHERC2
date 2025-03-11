@@ -21,7 +21,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/bishopfox/sliver/client/version"
+	"github.com/cs23m001/cipherc2/client/version"
 	"github.com/spf13/cobra"
 )
 

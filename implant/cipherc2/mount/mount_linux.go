@@ -8,7 +8,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/cs23m001/cipherc2/protobuf/sliverpb"
 )
 
 func GetMountInformation() ([]*sliverpb.MountInfo, error) {

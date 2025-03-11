@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	ver "github.com/bishopfox/sliver/client/version"
+	ver "github.com/cs23m001/cipherc2/client/version"
 )
 
 const (

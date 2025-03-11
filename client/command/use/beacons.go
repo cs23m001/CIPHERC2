@@ -21,8 +21,8 @@ package use
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/command/beacons"
-	"github.com/bishopfox/sliver/client/console"
+	"github.com/cs23m001/cipherc2/client/command/beacons"
+	"github.com/cs23m001/cipherc2/client/console"
 )
 
 // UseBeaconCmd - Change the active beacon

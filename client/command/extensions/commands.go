@@ -1,9 +1,9 @@
 package extensions
 
 import (
-	"github.com/bishopfox/sliver/client/command/help"
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
+	"github.com/cs23m001/cipherc2/client/command/help"
+	"github.com/cs23m001/cipherc2/client/console"
+	consts "github.com/cs23m001/cipherc2/client/constants"
 	"github.com/rsteube/carapace"
 	"github.com/spf13/cobra"
 )

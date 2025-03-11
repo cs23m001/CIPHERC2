@@ -33,15 +33,15 @@ import (
 
 	"syscall"
 
-	"github.com/bishopfox/sliver/implant/sliver/spoof"
+	"github.com/cs23m001/cipherc2/implant/sliver/spoof"
 
 	// {{if .Config.Evasion}}
-	"github.com/bishopfox/sliver/implant/sliver/evasion"
-	"github.com/bishopfox/sliver/implant/sliver/version"
+	"github.com/cs23m001/cipherc2/implant/sliver/evasion"
+	"github.com/cs23m001/cipherc2/implant/sliver/version"
 
 	// {{end}}
 
-	"github.com/bishopfox/sliver/implant/sliver/syscalls"
+	"github.com/cs23m001/cipherc2/implant/sliver/syscalls"
 	"golang.org/x/sys/windows"
 )
 

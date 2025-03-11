@@ -21,9 +21,9 @@ package sessions
 import (
 	"context"
 
-	"github.com/bishopfox/sliver/client/command/kill"
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
+	"github.com/cs23m001/cipherc2/client/command/kill"
+	"github.com/cs23m001/cipherc2/client/console"
+	"github.com/cs23m001/cipherc2/protobuf/commonpb"
 	"github.com/spf13/cobra"
 )
 

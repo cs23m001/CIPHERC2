@@ -28,7 +28,7 @@ import (
 	"strings"
 	"text/template"
 
-	consts "github.com/bishopfox/sliver/client/constants"
+	consts "github.com/cs23m001/cipherc2/client/constants"
 )
 
 const (
@@ -761,7 +761,7 @@ More information: https://github.com/mandatoryprogrammer/CursedChrome
 [[.Bold]]About:[[.Normal]] Lists external builders currently registered with the server.
 
 External builders allow the Sliver server offload implant builds onto external machines.
-For more information: https://github.com/BishopFox/sliver/wiki/External-Builders
+For more information: https://github.com/cs23m001/cipherc2/wiki/External-Builders
 `
 
 	credsHelp = `[[.Bold]]Command:[[.Normal]] creds

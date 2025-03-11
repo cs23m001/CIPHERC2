@@ -21,7 +21,7 @@ package command
 import (
 	"strings"
 
-	client "github.com/bishopfox/sliver/client/console"
+	client "github.com/cs23m001/cipherc2/client/console"
 	"github.com/reeflective/console"
 	"github.com/rsteube/carapace"
 	"github.com/spf13/cobra"
