@@ -1,7 +1,7 @@
 package console
 
 /*
-	Sliver Implant Framework
+	cipherc2 Implant Framework
 	Copyright (C) 2019  Bishop Fox
 
 	This program is free software: you can redistribute it and/or modify
@@ -119,20 +119,20 @@ func serverOnlyCmds() (commands []*cobra.Command) {
 
 const newOperatorLongHelp = `
 Create a new operator config file, operator configuration files allow
-remote machines to connect to the Sliver server. They are most commonly
+remote machines to connect to the cipherc2 server. They are most commonly
 used for allowing remote operators to connect in "Multiplayer Mode."
 
 To generate a profile for a remote operator, you need to specify the
 "all" permission to grant the profile access to all gRPC APIs:
 
-new-operator --name <operator name> --lhost <sliver server> --permissions all
+new-operator --name <operator name> --lhost <cipherc2 server> --permissions all
 
 Operator profiles can also be used to allow remote machines to connect to
-the Sliver server for other purposes, such as a "Remote Builder" or a
+the cipherc2 server for other purposes, such as a "Remote Builder" or a
 "Crackstation."
 
 You can restrict profiles' permissions by using the --permissions flag, for
 example, to create a profile that can only be used as a "Remote Builder":
 
-new-operator --name <operator name> --lhost <sliver server> --permissions builder
+new-operator --name <operator name> --lhost <cipherc2 server> --permissions builder
 `
