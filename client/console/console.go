@@ -1,7 +1,7 @@
 package console
 
 /*
-	Sliver Implant Framework
+	cipherc2 Implant Framework
 	Copyright (C) 2019  Bishop Fox
 
 	This program is free software: you can redistribute it and/or modify
@@ -110,7 +110,7 @@ func NewConsole(isServer bool) *SliverClient {
 	settings, _ := assets.LoadSettings()
 
 	con := &SliverClient{
-		App: console.New("sliver"),
+		App: console.New("cipherc2"),
 		ActiveTarget: &ActiveTarget{
 			observers:  map[int]Observer{},
 			observerID: 0,
@@ -407,9 +407,9 @@ func (con *SliverClient) AddBeaconCallback(taskID string, callback BeaconTaskCal
 }
 
 func (con *SliverClient) GetPrompt() string {
-	prompt := Underline + "sliver" + Normal
+	prompt := Underline + "cipherc2" + Normal
 	if con.IsServer {
-		prompt = Bold + "[server] " + Normal + Underline + "sliver" + Normal
+		prompt = Bold + "[server] " + Normal + Underline + "cipherc2" + Normal
 	}
 	if con.ActiveTarget.GetSession() != nil {
 		prompt += fmt.Sprintf(Bold+Red+" (%s)%s", con.ActiveTarget.GetSession().Name, Normal)
@@ -438,7 +438,7 @@ func (con *SliverClient) PrintLogo() {
 	if version.GitCommit != serverVer.Commit {
 		fmt.Printf(Info+"Client %s\r\n", version.FullVersion())
 	}
-	fmt.Println(Info + "Welcome to the sliver shell, please type 'help' for options\r")
+	fmt.Println(Info + "Welcome to the cipherc2 shell, please type 'help' for options\r")
 	if serverVer.Major != int32(version.SemanticVersion()[0]) {
 		fmt.Printf(Warn + "Warning: Client and server may be running incompatible versions.\r\n")
 	}
